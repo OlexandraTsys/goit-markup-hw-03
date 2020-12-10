@@ -256,11 +256,13 @@ img {
   padding-top: 94px;
 
   background-color: var(--background-team-section);
+  
 }
 
 .team.list {
   display: flex;
   text-align: center;
+  background: #FFFFFF;
 
   margin-top: 0;
   margin-bottom: 0;
@@ -385,27 +387,27 @@ img {
   background-color: var(--accent-text);
 }
 
-.button-portfolio.list > .links-list.item:not(:last-child) {
+.button-portfolio.list > .link-list.item:not(:last-child) {
   margin-right: 8px;
 }
 
-.links-list.oll {
+.links-btn.oll {
   min-width: 73px;
 }
 
-.links-list.web {
+.links-btn.web {
   min-width: 128px;
 }
 
-.links-list.application {
+.links-btn.application {
   min-width: 145px;
 }
 
-.links-list.design {
+.links-btn.design {
   min-width: 103px;
 }
 
-.links-list.marketing {
+.links-btn.marketing {
   min-width: 130px;
 }
 
