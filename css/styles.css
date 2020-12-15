@@ -152,8 +152,20 @@ img {
   padding-top: 200px;
   padding-bottom: 200px;
 
+  background-image: linear-gradient(
+      rgba(47, 48, 58, 0.4),
+      rgba(47, 48, 58, 0.4)
+    ),
+    url("../imeges/bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
   background-color: var(--background-hero-section);
+
   text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  width: 1600px;
+  min-height: 600px;
 }
 .hero-title {
   margin-top: 0;
@@ -304,6 +316,39 @@ img {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.19;
+}
+
+.social-list.list {
+  display: flex;
+  justify-content: space-between;
+
+  width: 206px;
+  margin: 0 auto;
+  margin-bottom: 30px;
+  padding-left: 0;
+}
+.social-list.link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+}
+
+.social-list-icon {
+  fill: #afb1b8;
+}
+
+.social-list.link:hover,
+.social-list.link:focus {
+  background-color: var(--accent-text);
+}
+
+.social-list.link:hover .social-list-icon,
+.social-list.link:focus .social-list-icon {
+  fill: var(--white);
 }
 
 /* footer */
